@@ -1,6 +1,8 @@
 # wheee-gpt
 
-ChatGPT Custom GPTs für das [WHEEE Protocol](https://github.com/wheee-protocol) – ohne eigene API-Tools. Nutzung über Chat, Copy-Paste von CLI-Ausgaben und optional Copy-Paste-Prototypen.
+ChatGPT Custom GPTs für das [WHEEE Protocol](https://github.com/wheee-protocol) – ohne eigene API-Tools.
+
+**Repo:** [github.com/skatekowski/wheee-gpt](https://github.com/skatekowski/wheee-gpt) Nutzung über Chat, Copy-Paste von CLI-Ausgaben und optional Copy-Paste-Prototypen.
 
 ## Inhalt
 
