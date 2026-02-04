@@ -1,81 +1,81 @@
 # wheee-gpt
 
-**Ein ChatGPT-Assistent für Produktdesign und UI-Design** – für Projekte, die mit dem WHEEE-Protokoll arbeiten. Du richtest ihn einmal ein und nutzt ihn danach nur über den Chat: Nachrichten schreiben, Dateien hochladen, Prototypen oder Dokumente anfordern. **Kein Programmieren, keine technischen Tools.**
+**A ChatGPT assistant for product design and UI design** — for projects using the WHEEE Protocol. You set it up once and use it only via chat: send messages, upload files, request prototypes or documents. **No coding, no technical tools.**
 
 **Repo:** [github.com/skatekowski/wheee-gpt](https://github.com/skatekowski/wheee-gpt)
 
 ---
 
-## Für Designer:innen – in Kürze
+## For designers — in short
 
-- **Was ist das?** Anleitung, um in ChatGPT einen **eigenen Assistenten** („Produktdesign-Begleiter“) anzulegen. Der Assistent spricht deine Sprache (UX/UI-Fachbegriffe), begleitet dich bei Discovery, Design-System, Prototyping und Handoff.
-- **Was brauchst du?** Einen ChatGPT-Account (z. B. Plus), um einen „Custom GPT“ zu erstellen. Zugang zu deinen Projektdateien oder zu kurzen Text-Ausgaben aus dem Projekt (z. B. Projektstand, Plan) – je nachdem, was dein Team nutzt.
-- **Was brauchst du nicht?** Keine Programmierung, keine API, keine Entwicklungsumgebung. Alles läuft über den Chat.
-
----
-
-## So richtest du den Begleiter ein (Schritt für Schritt)
-
-1. **ChatGPT öffnen** und oben auf **Explore** gehen, dann **Create a GPT** wählen.  
-   *(Das ist die Funktion, mit der man einen eigenen Assistenten mit festen Regeln und Stil anlegt.)*
-
-2. **Name eingeben:** z. B. **WHEEE Produktdesign-Begleiter**.  
-   Die genaue Bezeichnung und eine Kurzbeschreibung stehen in der Datei [Protokoll-GPT-UX-UI.md](Protokoll-GPT-UX-UI.md) unter „1. Name & Kurzbeschreibung“ – diese kannst du kopieren.
-
-3. **Instructions einfügen:** In derselben Datei [Protokoll-GPT-UX-UI.md](Protokoll-GPT-UX-UI.md) den **gesamten Abschnitt „2. Instructions“** markieren und kopieren (inkl. der Zeilen zwischen den \`\`\`). Diesen Text in das Feld **Instructions** beim Create-a-GPT-Dialog einfügen.  
-   *(Instructions = die Regeln und die „Rolle“, die dein Assistent im Chat einnimmt.)*
-
-4. **Conversation Starters (optional):** In Abschnitt „3. Conversation Starters“ der gleichen Datei findest du Vorschläge für Startfragen. Du kannst einige davon in ChatGPT unter „Conversation starters“ eintragen – dann hat der Assistent von Anfang an passende Einstiege.
-
-5. **Fertig.** Keine „Actions“, keine API, kein Code. Der Assistent arbeitet nur über den Chat.
+- **What is this?** Instructions to create your **own assistant** (“WHEEE Product Design Companion”) in ChatGPT. The assistant speaks your language (UX/UI terminology), supports you through discovery, design system, prototyping, and handoff.
+- **What do you need?** A ChatGPT account (e.g. Plus) to create a Custom GPT. Access to your project files or short text outputs from the project (e.g. project status, plan) — whatever your team uses.
+- **What you don’t need:** No programming, no API, no dev environment. Everything runs in chat.
 
 ---
 
-## So nutzt du den Begleiter
+## How to set up the companion (step by step)
 
-- **Im Chat schreiben:** Du beschreibst, was du brauchst (z. B. „Erstelle einen Prototyp für die Startseite“ oder „Fasse die Design-Entscheidungen aus dem Journal zusammen“).
-- **Dateien hochladen:** Du kannst Projektdateien (z. B. Process Journal, Projektstand) in den Chat hochladen – der Begleiter wertet sie aus und antwortet darauf.
-- **Text einfügen:** Wenn jemand in deinem Team dir eine Text-Ausgabe aus dem Projekt gibt (z. B. „Projektstand“ oder „Abhängigkeiten für Komponente X“), kannst du sie in den Chat einfügen und den Begleiter bitten, sie zu erklären oder nächste Schritte vorzuschlagen.
-- **Dateien anfordern:** Du kannst den Begleiter bitten, dir etwas **zum Download** oder zum **Copy-Paste** zu liefern: z. B. einen klickbaren Prototyp (HTML), eine Design-Spec, einen Style Guide, eine Kontext-Datei für einen neuen Chat. Er erklärt dir, wie du die Datei speicherst oder einfügst.
+1. **Open ChatGPT** and go to **Explore**, then choose **Create a GPT**.  
+   *(This is the feature for creating your own assistant with fixed rules and style.)*
 
-**Du lädst keine Apps, du programmierst nichts** – alles über Nachrichten, Upload und Download/Copy-Paste.
+2. **Enter the name:** e.g. **WHEEE Product Design Companion**.  
+   The exact name and a short description are in [Protocol-GPT-Product-Design.md](Protocol-GPT-Product-Design.md) under “1. Name & short description” — you can copy them.
 
----
+3. **Paste the instructions:** In the same file [Protocol-GPT-Product-Design.md](Protocol-GPT-Product-Design.md), select and copy the **entire “2. Instructions” section** (including the lines between the \`\`\`). Paste this text into the **Instructions** field in the Create a GPT dialog.  
+   *(Instructions = the rules and “role” your assistant follows in chat.)*
 
-## Was du in diesem Repo findest
+4. **Conversation starters (optional):** In section “3. Conversation starters” of the same file you’ll find suggested opening questions. You can add some of them in ChatGPT under “Conversation starters” — then the assistant has suitable entry points from the start.
 
-| Datei | Wofür? |
-|-------|--------|
-| [Protokoll-GPT-UX-UI.md](Protokoll-GPT-UX-UI.md) | **Anleitung für den Produktdesign-Begleiter.** Enthält Name, Kurzbeschreibung, die kompletten Instructions zum Kopieren und Vorschläge für Startfragen. Alles, was du brauchst, um den Assistenten in ChatGPT anzulegen. |
-| [chat-kontext-vorlage.md](chat-kontext-vorlage.md) | **Vorlage für einen neuen Chat.** Wenn du einen neuen Chat startest, kannst du diese Vorlage ausfüllen (oder vom Begleiter ausfüllen lassen) und den Inhalt im neuen Chat hochladen oder einfügen – dann hat der Assistent sofort den richtigen Kontext (Projekt, Phase, letzte Entscheidungen, offene Punkte). |
+5. **Done.** No “Actions”, no API, no code. The assistant works only via chat.
 
 ---
 
-## Was der Begleiter kann (ohne Technik-Kenntnisse)
+## How to use the companion
 
-- **Prototyp:** Auf Wunsch eine **Datei zum Download** (eine klickbare Webseiten-Vorschau) oder Text zum Copy-Paste. Geeignet für einzelne Screens, Navigation, Layout, Typo und Farben. Export für **Figma** (kein Pencil).
-- **Dokumentation & Planung:** Auf Wunsch **Dateien zum Download** oder Text zum Copy-Paste: z. B. Eintrag fürs Process Journal, Projektstand, Plan-Skizze, **Style Guide**, **UI-Spec** (Farbsystem, Typo, Abstände), Komponenten-Dokumentation, Barrierefreiheits-Checkliste. Der Begleiter nennt dir immer den vorgeschlagenen Dateinamen und Ordner (z. B. `architecture/`, `docs/`).
-- **Kontext für den nächsten Chat:** Eine **kurze Kontext-Datei** (Download oder Copy-Paste) mit Projektname, Phase, letzten Entscheidungen und offenen Punkten. Beim Start eines neuen Chats lädst du die Datei hoch oder fügst den Text ein – der neue Chat hat sofort den richtigen Kontext.
+- **Type in chat:** Describe what you need (e.g. “Create a prototype for the landing page” or “Summarize the design decisions from the journal”).
+- **Upload files:** You can upload project files (e.g. process journal, project status) into the chat — the companion evaluates them and responds.
+- **Paste text:** If someone on your team gives you a text output from the project (e.g. “project status” or “dependencies for component X”), paste it into the chat and ask the companion to explain it or suggest next steps.
+- **Request files:** You can ask the companion to provide something for **download** or **copy-paste**: e.g. a clickable prototype (HTML), a design spec, a style guide, or a context file for a new chat. It will tell you how to save or paste the file.
+
+**You don’t install apps or write code** — everything via messages, upload, and download/copy-paste.
 
 ---
 
-## Was ist WHEEE? (Hintergrund)
+## What you’ll find in this repo
 
-**WHEEE** ist ein **Arbeits- und Planungsprotokoll** für Software-Projekte. Es legt fest, wie geplant, designt und umgesetzt wird – mit klaren Phasen, Ordnern und Abläufen. **Mode D (Design)** ist der Modus für Produktdesign und UI-Design: Discovery, Prototyping, Design-System, Validierung und Übergabe (Handoff) an die Umsetzung.
+| File | What for? |
+|------|-----------|
+| [Protocol-GPT-Product-Design.md](Protocol-GPT-Product-Design.md) | **Instructions for the WHEEE Product Design Companion.** Contains name, short description, full instructions to copy, and suggested conversation starters. Everything you need to create the assistant in ChatGPT. |
+| [chat-context-template.md](chat-context-template.md) | **Template for a new chat.** When you start a new chat, fill in this template (or have the companion fill it) and upload or paste the content in the new chat — then the assistant has the right context (project, phase, last decisions, open points). |
 
-Wenn dein Projekt mit WHEEE arbeitet, gibt es z. B. Planungsordner (`.planning/`, `project/`, `architecture/`) und einheitliche Abläufe. Der **Produktdesign-Begleiter** kennt diese Struktur und spricht die gleiche Sprache (User Flows, Design Tokens, Style Guide, Usability-Validierung, Handoff).  
-Technische Details: [WHEEE Protocol](https://github.com/wheee-protocol).
+---
+
+## What the companion can do (no tech skills required)
+
+- **Prototype:** On request a **file for download** (a clickable web preview) or text for copy-paste. Good for single screens, navigation, layout, typography, and colors. Export for **Figma** (no Pencil).
+- **Documentation & planning:** On request **files for download** or text for copy-paste: e.g. process journal entry, project status, plan sketch, **style guide**, **UI spec** (color system, typo, spacing), component documentation, accessibility checklist. The companion always suggests a filename and folder (e.g. `architecture/`, `docs/`).
+- **Context for the next chat:** A **short context file** (download or copy-paste) with project name, phase, last decisions, and open points. When starting a new chat, upload the file or paste the text — the new chat has the right context immediately.
+
+---
+
+## What is WHEEE? (Background)
+
+**WHEEE** is a **workflow and planning protocol** for software projects. It defines how planning, design, and implementation are done — with clear phases, folders, and processes. **Mode D (Design)** is the mode for product and UI design: discovery, prototyping, design system, validation, and handoff to implementation.
+
+If your project uses WHEEE, there are e.g. planning folders (`.planning/`, `project/`, `architecture/`) and consistent workflows. The **Product Design Companion** knows this structure and speaks the same language (user flows, design tokens, style guide, usability validation, handoff).  
+Technical details: [WHEEE Protocol](https://github.com/wheee-protocol).
 
 ---
 
 ## Credits
 
-- **[Get Shit Done (GSD)](https://github.com/glittercowboy/get-shit-done)** – Light-weight meta-prompting, context engineering und spec-driven development (Claude Code, OpenCode, Gemini CLI). WHEEE baut auf GSD-Methodik auf.
-- **[Boris Cherny – How I use Claude Code](https://threadreaderapp.com/thread/2007179832300581177.html)** – Thread mit Setup und Tipps vom Creator von Claude Code (Plan mode, Slash Commands, Verification).
-- **[Boris Cherny auf X](https://x.com/bcherny/status/2017742741636321619)** – Weitere Tipps vom Claude-Code-Team (Parallel Sessions, Plan-first, Verification).
+- **[Get Shit Done (GSD)](https://github.com/glittercowboy/get-shit-done)** — Light-weight meta-prompting, context engineering, and spec-driven development (Claude Code, OpenCode, Gemini CLI). WHEEE builds on GSD methodology.
+- **[Boris Cherny – How I use Claude Code](https://threadreaderapp.com/thread/2007179832300581177.html)** — Thread with setup and tips from the creator of Claude Code (plan mode, slash commands, verification).
+- **[Boris Cherny on X](https://x.com/bcherny/status/2017742741636321619)** — More tips from the Claude Code team (parallel sessions, plan-first, verification).
 
 ---
 
-## Lizenz
+## License
 
-**MIT-Lizenz** – dieses Repo ist Open Source. Siehe [LICENSE](LICENSE).
+**MIT License** — this repo is open source. See [LICENSE](LICENSE).
