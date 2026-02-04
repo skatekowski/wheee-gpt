@@ -68,6 +68,14 @@ Technische Details: [WHEEE Protocol](https://github.com/wheee-protocol).
 
 ---
 
+## Credits
+
+- **[Get Shit Done (GSD)](https://github.com/glittercowboy/get-shit-done)** – Light-weight meta-prompting, context engineering und spec-driven development (Claude Code, OpenCode, Gemini CLI). WHEEE baut auf GSD-Methodik auf.
+- **[Boris Cherny – How I use Claude Code](https://threadreaderapp.com/thread/2007179832300581177.html)** – Thread mit Setup und Tipps vom Creator von Claude Code (Plan mode, Slash Commands, Verification).
+- **[Boris Cherny auf X](https://x.com/bcherny/status/2017742741636321619)** – Weitere Tipps vom Claude-Code-Team (Parallel Sessions, Plan-first, Verification).
+
+---
+
 ## Lizenz
 
-Unter gleicher Lizenz wie das [WHEEE Protocol](https://github.com/wheee-protocol) (siehe dort).
+**MIT-Lizenz** – dieses Repo ist Open Source. Siehe [LICENSE](LICENSE).
